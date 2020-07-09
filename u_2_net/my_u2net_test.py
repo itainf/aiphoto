@@ -44,7 +44,7 @@ def preprocess(image):
 def pre_net():
     # 采用n2net 模型数据
     model_name = 'u2net'
-    model_dir = 'saved_models/'+ model_name + '/' + model_name + '.pth'
+    model_dir = '..\\aiphoto\\u_2_net\\saved_models/'+ model_name + '/' + model_name + '.pth'
     print("...load U2NET---173.6 MB")
     net = U2NET(3,1)
     # 指定cpu
@@ -75,8 +75,8 @@ def get_im(pred):
     return im
 
 
-def test_seg_trimap(org,org_trimap,resize_trimap):
-    # 将原始图片转换成trimap
+def test_seg_trimap(org,alpha,alpha_resize):
+    # 将原始图片转换成 Alpha图
     # org：原始图片
     # org_trimap:
     # resize_trimap: 调整尺寸的trimap
@@ -91,13 +91,13 @@ def test_seg_trimap(org,org_trimap,resize_trimap):
     pred = normPRED(pred)
     # 将数据转换成图片
     im = get_im(pred)
-    im.save(org_trimap)
+    im.save(alpha)
     sp = image.size
     # 根据原始图片调整尺寸
     imo = im.resize((sp[0], sp[1]), resample=Image.BILINEAR)
-    imo.save(resize_trimap)
+    imo.save(alpha_resize)
 
 
-if __name__ == "__main__":
-    test_seg_trimap("..\\img\\meinv.jpg","..\\img\\trimap\\meinv_org_trimap.png","..\\img\\trimap\\meinv_resize_trimap.png")
-    #pil_wait_blue()
+# if __name__ == "__main__":
+#     test_seg_trimap("..\\img\\meinv.jpg","..\\img\\trimap\\meinv_alpha.png","..\\img\\trimap\\meinv_alpha_resize.png")
+#     #pil_wait_blue()

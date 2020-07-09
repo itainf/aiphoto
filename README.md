@@ -9,6 +9,10 @@
 
 2.[卷积神经网络模型人像分割](https://github.com/itainf/aiphoto/wiki/%E5%8D%B7%E7%A7%AF%E6%A8%A1%E5%9E%8B%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2)
 
+3.[利用PyMatting替换背景颜色]()
+
+4.[利用dlib人脸检测裁剪照片]()
+
 ### 更新记录
 
 2020年7月4日更新
