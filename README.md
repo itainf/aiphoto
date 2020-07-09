@@ -20,9 +20,7 @@
 
 本次更新了，通过卷积神经网络模型分割人像
 
-文档：
-
-> [卷积模型人像分割](https://github.com/itainf/aiphoto/wiki/%E5%8D%B7%E7%A7%AF%E6%A8%A1%E5%9E%8B%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2)
+文档： [卷积模型人像分割](https://github.com/itainf/aiphoto/wiki/%E5%8D%B7%E7%A7%AF%E6%A8%A1%E5%9E%8B%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2)
 
 
 
@@ -32,8 +30,6 @@
 
 本次更新了，通过PyMatting框架,利用trimap分割前景人像，将背景替换成证件照背景
 
-文档：
-
-> [利用PyMatting替换成证件照背景](https://github.com/itainf/aiphoto/wiki/%E5%88%A9%E7%94%A8PyMatting%E7%B2%BE%E7%BB%86%E5%8C%96%E6%8A%A0%E5%9B%BE)
+文档：[利用PyMatting替换成证件照背景](https://github.com/itainf/aiphoto/wiki/%E5%88%A9%E7%94%A8PyMatting%E7%B2%BE%E7%BB%86%E5%8C%96%E6%8A%A0%E5%9B%BE)
 
 
