@@ -33,3 +33,12 @@
 文档：[利用PyMatting替换成证件照背景](https://github.com/itainf/aiphoto/wiki/%E5%88%A9%E7%94%A8PyMatting%E7%B2%BE%E7%BB%86%E5%8C%96%E6%8A%A0%E5%9B%BE)
 
 
+2020年7月15日更新
+
+本次更新版本： v20200715
+
+本次更新了，通过dlib框架,裁剪成标准尺寸照片
+
+文档：[裁剪照片](https://github.com/itainf/aiphoto/wiki/%E8%A3%81%E5%89%AA%E7%85%A7%E7%89%87)
+
+
