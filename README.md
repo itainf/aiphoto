@@ -1,3 +1,5 @@
+[知乎专栏](https://www.zhihu.com/people/itlf/columns)
+
 # aiphoto
 最近要去办事情，很多地方都需要证件照，最近刚好在看AI，人脸识别，图形识别相关的知识，就打算利用这些技术开发一个证件照功能
 
