@@ -1,5 +1,7 @@
 [知乎专栏](https://www.zhihu.com/people/itlf/columns)
 
+# aiphoto
+最近要去办事情，很多地方都需要证件照，最近刚好在看AI，人脸识别，图形识别相关的知识，就打算利用这些技术开发一个证件照功能
 
 蓝底原始图：
 
@@ -13,8 +15,6 @@
 
 ![image-20200715000251662](https://raw.githubusercontent.com/wiki/itainf/aiphoto/裁剪照片.assets/image-20200715000251662.png)
 
-# aiphoto
-最近要去办事情，很多地方都需要证件照，最近刚好在看AI，人脸识别，图形识别相关的知识，就打算利用这些技术开发一个证件照功能
 
 # 文档
 
