@@ -1,5 +1,18 @@
 [知乎专栏](https://www.zhihu.com/people/itlf/columns)
 
+
+蓝底原始图：
+
+![image-20200715000133867](https://raw.githubusercontent.com/wiki/itainf/aiphoto/裁剪照片.assets/image-20200715000133867.png)
+
+关键特征描述：
+
+![image-20200715000232798](https://raw.githubusercontent.com/wiki/itainf/aiphoto/裁剪照片.assets/image-20200715000232798.png)
+
+裁剪后的2寸照片：
+
+![image-20200715000251662](https://raw.githubusercontent.com/wiki/itainf/aiphoto/裁剪照片.assets/image-20200715000251662.png)
+
 # aiphoto
 最近要去办事情，很多地方都需要证件照，最近刚好在看AI，人脸识别，图形识别相关的知识，就打算利用这些技术开发一个证件照功能
 
