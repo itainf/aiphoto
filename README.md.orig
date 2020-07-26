@@ -3,6 +3,9 @@
 # aiphoto
 最近要去办事情，很多地方都需要证件照，最近刚好在看AI，人脸识别，图形识别相关的知识，就打算利用这些技术开发一个证件照功能
 
+<<<<<<< HEAD
+# 效果图
+=======
 蓝底原始图：
 
 ![image-20200715000133867](https://raw.githubusercontent.com/wiki/itainf/aiphoto/裁剪照片.assets/image-20200715000133867.png)
@@ -15,6 +18,7 @@
 
 ![image-20200715000251662](https://raw.githubusercontent.com/wiki/itainf/aiphoto/裁剪照片.assets/image-20200715000251662.png)
 
+>>>>>>> 734dfc205f51cb644b299387aea0ffc40ddd6a54
 
 # 文档
 
@@ -57,8 +61,3 @@
 文档：[裁剪照片](https://github.com/itainf/aiphoto/wiki/%E8%A3%81%E5%89%AA%E7%85%A7%E7%89%87)
 
 
-2020年7月26日更新
-
-本次更新版本： v20200726
-
-文档： [小程序拍照上传生成证件照](https://github.com/itainf/aiphoto/wiki/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%8B%8D%E7%85%A7%E4%B8%8A%E4%BC%A0%E7%94%9F%E6%88%90%E8%AF%81%E4%BB%B6%E7%85%A7)
