@@ -7,7 +7,7 @@ from u_2_net.data_loader import RescaleT
 from u_2_net.data_loader import ToTensorLab
 from u_2_net.model import U2NET # full size version 173.6 MB
 from PIL import Image
-
+import os
 
 # normalize the predicted SOD probability map
 def normPRED(d):
@@ -44,7 +44,10 @@ def preprocess(image):
 def pre_net():
     # 采用n2net 模型数据
     model_name = 'u2net'
-    model_dir = '..\\aiphoto\\u_2_net\\saved_models/'+ model_name + '/' + model_name + '.pth'
+    path = os.path.dirname(__file__)
+    print(path)
+    model_dir = path+'/saved_models/'+ model_name + '/' + model_name + '.pth'
+    print(model_dir)
     print("...load U2NET---173.6 MB")
     net = U2NET(3,1)
     # 指定cpu
